@@ -684,4 +684,126 @@
       <div class="tag-list">
         <span class="tag">SQL</span><span class="tag">Metabase</span><span class="tag">Warehousing</span>
       </div>
-      
+    </a>
+
+    <a class="project-card reveal" href="https://github.com/arjkul/b2b-packing-config-generator" target="_blank">
+      <span class="project-type">Automation</span>
+      <h3 class="project-name">B2B Packing Config Generator</h3>
+      <p class="project-desc">Google Apps Script tool for generating B2B packing configurations. Reduces manual configuration time and standardizes output across merchant onboarding workflows.</p>
+      <div class="tag-list">
+        <span class="tag">Apps Script</span><span class="tag">Automation</span><span class="tag">B2B Ops</span>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- STACK -->
+<section id="stack">
+  <div class="section-header reveal">
+    <span class="section-label">03</span>
+    <h2 class="section-title">Tech Stack</h2>
+    <div class="divider"></div>
+  </div>
+
+  <table class="stack-table reveal">
+    <thead>
+      <tr>
+        <th>Layer</th>
+        <th>Personal (slow-kratos)</th>
+        <th>Professional</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>LLM Inference</td>
+        <td><span class="stack-badge">Ollama</span><span class="stack-badge">Llama</span><span class="stack-badge">Mistral</span></td>
+        <td><span class="stack-badge">Claude API</span><span class="stack-badge">Gemini API</span></td>
+      </tr>
+      <tr>
+        <td>Orchestration</td>
+        <td><span class="stack-badge">n8n</span><span class="stack-badge">MCP Gateway</span></td>
+        <td><span class="stack-badge">Python</span><span class="stack-badge">REST APIs</span><span class="stack-badge">Asana API</span></td>
+      </tr>
+      <tr>
+        <td>Data</td>
+        <td>—</td>
+        <td><span class="stack-badge">Snowflake</span><span class="stack-badge">PostgreSQL</span><span class="stack-badge">EDI</span></td>
+      </tr>
+      <tr>
+        <td>BI &amp; Visualization</td>
+        <td>—</td>
+        <td><span class="stack-badge">Metabase</span><span class="stack-badge">Advanced SQL</span></td>
+      </tr>
+      <tr>
+        <td>Interface</td>
+        <td><span class="stack-badge">Open WebUI</span></td>
+        <td><span class="stack-badge">Google Docs</span><span class="stack-badge">Metabase</span></td>
+      </tr>
+      <tr>
+        <td>Infrastructure</td>
+        <td><span class="stack-badge">Docker Compose</span><span class="stack-badge">Tailscale</span></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Context Protocol</td>
+        <td><span class="stack-badge">Docker MCP Gateway</span></td>
+        <td><span class="stack-badge">Anthropic MCP</span><span class="stack-badge">Claude Code</span></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-header reveal">
+    <span class="section-label">04</span>
+    <h2 class="section-title">Contact</h2>
+    <div class="divider"></div>
+  </div>
+
+  <div class="contact-block reveal">
+    <div class="contact-cell">
+      <p class="contact-label">Currently Open To</p>
+      <p class="contact-value">Director of PM roles in logistics tech, data infrastructure, and AI-powered operations</p>
+    </div>
+    <div class="contact-cell">
+      <p class="contact-label">LinkedIn</p>
+      <p class="contact-value"><a href="https://www.linkedin.com/in/arjun-kul" target="_blank">linkedin.com/in/arjun-kul</a></p>
+    </div>
+    <div class="contact-cell">
+      <p class="contact-label">GitHub</p>
+      <p class="contact-value"><a href="https://github.com/arjkul" target="_blank">github.com/arjkul</a></p>
+    </div>
+    <div class="contact-cell">
+      <p class="contact-label">Based In</p>
+      <p class="contact-value">North America</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Arjun Kulshreshtha</p>
+  <p>arjkul.github.io</p>
+</footer>
+
+<script>
+  // Scroll reveal
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal').forEach((el, i) => {
+    el.style.transitionDelay = `${(i % 4) * 0.08}s`;
+    observer.observe(el);
+  });
+</script>
+
+</body>
+</html>
