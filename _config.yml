@@ -1,4 +1,16 @@
-theme: minima
-title: Arjun's personal blog
-description: This is a blog of my experiments with AI
-author: Arjun K
+title: Arjun Kulshreshtha
+description: Sr. Manager · B2B Operations & Strategy · AI Infrastructure
+url: "https://arjkul.github.io"
+baseurl: "/skills-github-pages"
+
+author:
+  name: Arjun Kulshreshtha
+  linkedin: https://www.linkedin.com/in/arjun-kul
+  github: https://github.com/arjkul
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
