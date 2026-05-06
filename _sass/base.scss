@@ -1,3 +1,20 @@
+// ──── HACKED JEKYLL FONTS ────
+@font-face {
+  font-family: "hack";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../webfonts/hack-regular-subset.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "hack";
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  src: url("../webfonts/hack-italic-subset.woff2") format("woff2");
+}
+
 // ─── VARIABLES ───
 $bg:       #0a0a0b;
 $surface:  #111114;
