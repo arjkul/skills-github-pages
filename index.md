@@ -163,6 +163,15 @@ description: Senior leader driving end-to-end transformation, operational excell
     <a class="project-card reveal" href="https://github.com/arjkul/llm-daily-drivers" target="_blank">
       <span class="project-type">AI Toolkit</span>
       <h3 class="project-name">LLM Daily Drivers</h3>
+
+    <a class="project-card reveal" href="https://github.com/arjkul/multi-agent-merchant-education-pipeline" target="_blank">
+      <span class="project-type">AI Automation</span>
+      <h3 class="project-name">Multi-Agent Merchant Education Pipeline</h3>
+      <p class="project-desc">AI-powered pipeline automating merchant onboarding education with multi-agent orchestration, content personalization, and progress tracking.</p>
+      <div class="tag-list">
+        <span class="tag">Multi-Agent</span><span class="tag">Education</span><span class="tag">Automation</span><span class="tag">Merchant Onboarding</span><span class="tag">Claude API</span>
+      </div>
+    </a>
       <p class="project-desc">Curated collection of non-technical, ready-to-run LLM apps for productivity, creativity, health, and finance. Organized by use case with beginner-friendly setup guides.</p>
       <div class="tag-list">
         <span class="tag">AI Agents</span><span class="tag">LLM Apps</span><span class="tag">Non-Technical</span><span class="tag">Productivity</span><span class="tag">Curated</span>
