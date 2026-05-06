@@ -160,6 +160,15 @@ description: Senior leader driving end-to-end transformation, operational excell
 
   <div class="projects-grid">
 
+    <a class="project-card reveal" href="https://github.com/arjkul/llm-daily-drivers" target="_blank">
+      <span class="project-type">AI Toolkit</span>
+      <h3 class="project-name">LLM Daily Drivers</h3>
+      <p class="project-desc">Curated collection of non-technical, ready-to-run LLM apps for productivity, creativity, health, and finance. Organized by use case with beginner-friendly setup guides.</p>
+      <div class="tag-list">
+        <span class="tag">AI Agents</span><span class="tag">LLM Apps</span><span class="tag">Non-Technical</span><span class="tag">Productivity</span><span class="tag">Curated</span>
+      </div>
+    </a>
+
     <a class="project-card reveal" href="https://github.com/arjkul/slow-kratos" target="_blank">
       <span class="project-type">Personal Infrastructure</span>
       <h3 class="project-name">slow-kratos — Self-Hosted AI Stack</h3>
